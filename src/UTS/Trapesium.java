@@ -32,8 +32,14 @@ public class Trapesium {
         for ( Luas vc : ff){
             double Luas = vc.Hitungluas();
             System.out.println("LUAS TRAPESIUM : " + Luas);
+            // Untuk soal nomor 3
             if (Luas > 5000){
                 System.out.println("LEBIH  : " + Luas);
+            }
+            //ini untuk rumus keliling
+            for ( Luas trapes : ff){
+                double keliling = trapes.HitungKeliling();
+                System.out.println("KELILING TRAPESIUM : " + keliling);
             }
         }
         }

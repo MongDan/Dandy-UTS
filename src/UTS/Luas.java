@@ -8,6 +8,9 @@ public class Luas {
     public double Hitungluas (){
         return (  Tinggi * Sisi1 + Sisi2 /2 );
     }
+    public  double HitungKeliling (){
+        return (Sisi1 + Sisi2 + Sisi1 + Sisi2);
+    }
 
     }
 
